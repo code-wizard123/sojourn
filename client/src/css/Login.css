@@ -15,36 +15,69 @@ body {
     margin: 0;
     height: 100vh;
     width: 100%;
-    text-align: center;
+  
 }
 
-.black {
-    width: 30vw;
-    height: 70vh;
-    background-color: rgba(0, 0, 0, 0.192);
+.blur{
+    width: 100vw;
     position: absolute;
-    filter: opacity(10px);
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    backdrop-filter: blur(2px);
-    border-radius: 10px;
+    top: 10%;
+    display: flex;
+    justify-content: center;
 }
-
-.blur {
+.black{
+    width:32vw ;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);border-radius: 20px;
+}
+.img{
     width: 100%;
-    height: 100%;
-
-
+    display: flex;
+    justify-content: center;
 }
-
-.car {
+.imga{
+    margin-top: 20px;
     width: 200px;
     height: 200px;
+    
 }
+h1{
+    font-family: 'poppins';
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+.emailid{
+    outline: none;
+    width: 23vw;
+    height: 5vh;
+    border-radius: 20px;
+    border: none;
+    box-shadow: black;
+}
+.input{
+    margin-top: -20px;
+    margin-left: 70px;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    height: 5vh;
+    width: 23vw;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .buttons{
 
-.flex {
-    width: 50%;
     display: flex;
-    flex-direction: column;
-}
+    justify-content: center;
+    margin-top: 20px;
+  }
