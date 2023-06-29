@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("./Images/pexels-eberhard-grossgasteiger-691668.jpg");
+    background-image: url("pexels-simon-berger-1183099.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: none;
@@ -37,9 +37,9 @@ body {
     justify-content: center;
 }
 .imga{
-    margin-top: 20px;
-    width: 200px;
-    height: 200px;
+    margin-top: 10px;
+    width: 230px;
+    height: 230px;
     
 }
 h1{
@@ -73,9 +73,9 @@ justify-content: center;
     }
 
 .button{
-    background-color: #89FFAB;
+    background-color: #112A18;
     border: none;
-    color: black;
+    color: white;
     height: 5vh;
     width: 23vw;
     border-radius: 20px;
@@ -93,7 +93,8 @@ justify-content: center;
   .button:hover{
     transform: translateY(2px);
     transition: 1s;
-background-color: white;
+    background-color: white;
+    color: black;
   }
   .buttons{
 
@@ -102,9 +103,9 @@ background-color: white;
     margin-top: 20px;
   }
   .button1{
-    background-color: #89FFAB;
+    background-color: #112A18;
     border: none;
-    color: black;
+    color: white;
     height: 5vh;
     width: 23vw;
     border-radius: 20px;
@@ -122,6 +123,7 @@ background-color: white;
     transform: translateY(2px);
     transition: 1s;
 background-color: white;
+color: black;
   }
   .buttons1{
 
