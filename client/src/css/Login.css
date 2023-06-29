@@ -27,7 +27,7 @@ body {
 }
 .black{
     width:32vw ;
-    height: 80vh;
+    padding-bottom: 80px;
     background-color: rgba(0, 0, 0, 0.116);
     backdrop-filter: blur(5px);border-radius: 20px;
 }
@@ -49,6 +49,7 @@ h1{
     font-weight: 300;
 }
 .emailid{
+   
     outline: none;
     width: 23vw;
     height: 5vh;
@@ -57,13 +58,53 @@ h1{
     box-shadow: black;
 }
 .input{
-    margin-top: -20px;
-    margin-left: 70px;
+    width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
 }
-.button {
-    background-color: #4CAF50;
+.center{
+display: flex;
+justify-content: center;
+}
+.centr{
+    display: flex;
+    justify-content: center;
+    }
+
+.button{
+    background-color: #89FFAB;
     border: none;
-    color: white;
+    color: black;
+    height: 5vh;
+    width: 23vw;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'poppins';
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 20px;
+  
+  }
+  .button:hover{
+    transform: translateY(2px);
+    transition: 1s;
+background-color: white;
+  }
+  .buttons{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .button1{
+    background-color: #89FFAB;
+    border: none;
+    color: black;
     height: 5vh;
     width: 23vw;
     border-radius: 20px;
@@ -74,10 +115,23 @@ h1{
     margin: 4px 2px;
     cursor: pointer;
     margin-top: 20px;
+    font-family: 'poppins';
+    font-weight: bold;
   }
-  .buttons{
+  .button1:hover{
+    transform: translateY(2px);
+    transition: 1s;
+background-color: white;
+  }
+  .buttons1{
 
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+  }
+  p{
+    color: white;
+    font-size: 10px;
+  }
+  a{
+    color: blue;
   }
