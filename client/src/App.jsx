@@ -3,15 +3,16 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Login from './Components/Login'
 import Landing from './Components/Landing'
 import LoginD from './Components/LoginD'
+import './App.css'
 
 const App = () => {
   return (
-    <div>
+    <div className='container-all'>
       <Router>
         <Routes>
-          <Route exact element={<Landing />} path='/' />
-          <Route exact element={<Login />} path='/login' />
-          <Route exact element={<LoginD />} path='/loginD'/>
+          <Route element={<Landing />} path='/' />
+          <Route element={<Login />} path='/login' />
+          <Route element={<LoginD />} path='/loginD'/>
         </Routes>
       </Router>
     </div>
