@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/LoginD.css'
+
 const LoginD = () => {
   return (
     <div className='blur'>
