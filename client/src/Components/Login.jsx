@@ -9,18 +9,15 @@ const Login = () => {
           <div className={LoginStyles.img}>
             <img src='./Images/City driver-pana (1).png' className={LoginStyles.imga}></img>
           </div>
+          <form>
           <div className={LoginStyles.input}>
             <div className={LoginStyles.center}>
-              <form >
-                <h1 >Email ID</h1>
+                <h1 className={LoginStyles.label}>Email ID</h1>
                 <input type='text' className={LoginStyles.emailid} ></input>
-              </form>
             </div>
             <div className={LoginStyles.center}>
-              <form>
-                <h1>Password</h1>
+                <h1 className={LoginStyles.label}>Password</h1>
                 <input type='text' className={LoginStyles.emailid} ></input>
-              </form>
             </div>
           </div>
           <div className={LoginStyles.buttons}>
@@ -28,12 +25,14 @@ const Login = () => {
           </div>
 
           <div className={LoginStyles.centr}>
-            <p>Don’t know your password ?<a href='https://www.freepik.com/free-vector/travelers-concept-illustration_8793245.htm#query=tourist&position=23&from_view=keyword&track=sph'><span>Forgot password</span></a></p>
+            <p className={LoginStyles.forgotpass}>Don’t know your password ? <a href='https://www.freepik.com/free-vector/travelers-concept-illustration_8793245.htm#query=tourist&position=23&from_view=keyword&track=sph'><span>Forgot password</span></a></p>
           </div>
 
           <div className={LoginStyles.buttons1}>
             <button className={LoginStyles.button1}>Register</button>
           </div>
+
+          </form>
         </div>
       </div>
     </div>
