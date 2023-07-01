@@ -38,7 +38,7 @@ const LoginD = () => {
           </form>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 

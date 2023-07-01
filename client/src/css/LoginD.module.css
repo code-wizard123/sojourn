@@ -9,7 +9,7 @@
   background-repeat: none;
   font-family: 'poppins';
 }
-
+s
 .blur {
   width: 100%;
   position: absolute;
@@ -132,7 +132,6 @@ h1 {
 }
 
 .buttons1 {
-
   display: flex;
   justify-content: center;
 }
