@@ -1,8 +1,100 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
 
-.width{
-  background-size: 100%;
-    background-image: url("./Images/mountain-back.png");
-width: 100%;
+.imga {
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.animation,
+.animation_layer {
+  height: 1000px;
+}
+
+.animation {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.animation_layer {
+  background-position: bottom center;
+  background-size: auto 1038px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+
+.animation_layer.parallax {
+  position: fixed;
+}
+
+
+body {
+  background-color: black;
+}
+
+
+
+.imgb {
+  position: fixed;
+  top: 0%;
+  width: 42%;
+  height: 100%;
+}
+
+.imgc {
+
+  position: fixed;
+  top: 20%;
+  left: 51.85%;
+  width: 30%;
+  height: 73%;
+}
+
+/* .imgd{
+  position: fixed;
+  width: 50%;
+  height: 30%;
+  top: 70.5%;
+  left: 26.5%;
+} */
+.imge {
+  position: fixed;
+  width: 46%;
+  height: 100%;
+  top: 0%;
+  left: 55%;
+}
+
+.imgf {
+  position: fixed;
+  width: 16%;
+  height: 49%;
+  top: 37.8%;
+  left: 36.7%;
+}
+
+.h1 {
+  font-weight: bolder;
+  font-size: 90px;
+  color: #FFE500;
+  text-shadow: 2px 2px 2px #0D150F;
+  position: absolute;
+  top: 40%;
+  left: 50.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.h2{
+  position: absolute;
+  top: 55%;
+  left: 50.5%;
+  font-weight: 300;
+  color: white;
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
