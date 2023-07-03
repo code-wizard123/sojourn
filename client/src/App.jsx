@@ -11,7 +11,7 @@ const App = () => {
     <div className='container-all'>
       <Router>
         <Routes>
-          <Route element={<Landing />} path='/landing' />
+          <Route element={<Landing />} path='/' />
           <Route element={<Login />} path='/login' />
           <Route element={<LoginD />} path='/loginD'/>
         </Routes>
