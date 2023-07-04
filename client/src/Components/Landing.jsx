@@ -11,12 +11,12 @@ const Landing = () => {
           <img src='./Parallax-images/cloud-back.jpg' className={LandingStyles.imga}></img>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={-0.5}>
-          <img src='./Parallax-images/moon.png' className={LandingStyles.imgb}></img>
-        </ParallaxLayer>
-        <ParallaxLayer offset={0} speed={0.2}>
-          <img src='./Parallax-images/3.png' className={LandingStyles.imgc}></img>
+          <img src='./Parallax-images/sun.png' className={LandingStyles.imgb}></img>
         </ParallaxLayer>
         <ParallaxLayer offset={0} speed={0.4}>
+          <img src='./Parallax-images/3.png' className={LandingStyles.imgc}></img>
+        </ParallaxLayer>
+        <ParallaxLayer offset={0} speed={0.6}>
           <img src='./Parallax-images/2.png' className={LandingStyles.imgc}></img>
         </ParallaxLayer>
 

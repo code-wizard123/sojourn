@@ -74,7 +74,7 @@ h1 {
 }
 
 .button {
-  background-color: #89FFAB;
+  background-color: #D9C1FF;
   border: none;
   color: black;
   height: 5vh;
@@ -106,7 +106,7 @@ h1 {
 }
 
 .button1 {
-  background-color: #89FFAB;
+  background-color: #D9C1FF;
   border: none;
   color: black;
   height: 5vh;
@@ -151,14 +151,14 @@ a {
 
 @media only screen and (max-width: 913px) {
   .outer {
-    background: #89FFAB;
+   background-image: none;
     width: 100vw;
     height: 100vh;
   }
-  .imga {
- 
+  .img{
+  
     width: 250px;
-    height: 250px;
+    height: 250px ;
   
   }
   .blur {
@@ -189,7 +189,7 @@ a {
 
   .button1,
   .button {
-    background-color: #112A18;
+    background-color: #701DF4;
     color: white;
     box-shadow:
       0px 3.8px 5.3px rgba(0, 0, 0, 0.113),

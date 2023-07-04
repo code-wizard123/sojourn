@@ -7,7 +7,7 @@ const Login = () => {
       <div className={LoginStyles.blur}>
         <div className={LoginStyles.black}>
           <div className={LoginStyles.img}>
-            <img src='./Images/City driver-pana (1).png' className={LoginStyles.imga}></img>
+            <img src='./Images/Digital_nomad-pana.png' className={LoginStyles.imga}></img>
           </div>
           <form>
           <div className={LoginStyles.input}>
