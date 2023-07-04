@@ -28,7 +28,8 @@ const Landing = () => {
         The Sojourn tourism website should provide a warm welcome  for all visitors. The website represents the city and its people. The primary goal is to make visitors’ stays as enjoyable and memorable as possible.
 The Landing page  features beautiful images showcasing the website. Major upcoming events and festivals helps visitors plan their trip. Useful links for things like transportation, accommodations and dining options are prominently displayed.
 <br/><br/>The Sojourn tourism website should provide a warm welcome  for all visitors. The website represents the city and its people. The primary goal is to make visitors’ stays as enjoyable and memorable as possible.
-The Landing page  features beautiful images showcasing the website. Major upcoming events and festivals helps visitors plan their trip. Useful links for things like transportation, accommodations and dining options are prominently displayed.</h1>
+The Landing page  features beautiful images showcasing the website. Major upcoming events and festivals helps visitors plan their trip. Useful links for things like transportation, accommodations and dining options are prominently displayed.
+<br/><br/>Rahul Babar - <a href="https://github.com/rahulbabar1212">GitHub</a><br/>Ranauk Singh Kalsi - <a href="https://github.com/code-wizard123">GitHub</a></h1>
         </div>
 
         </ParallaxLayer>

@@ -177,3 +177,13 @@ flex-direction: row;
 }
 }
 
+@media only screen and (max-width: 376px){
+  .infoa{
+    position: absolute;
+    top: 90%; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+  }
+}
