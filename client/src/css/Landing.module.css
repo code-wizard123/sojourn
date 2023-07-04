@@ -12,15 +12,15 @@
 }
 
 @media only screen and (max-width: 913px) {
-
-  body{
+  .App{
+    height: 100vh;
     background: url("./Images/background-landing.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
 
-  img{
+  .landimg{
     display: none;
   }
 }
@@ -41,11 +41,6 @@
 
 .animation_layer.parallax {
   position: fixed;
-}
-
-
-body {
-  background-color: black;
 }
 
 .imgb {
