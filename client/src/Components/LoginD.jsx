@@ -1,44 +1,41 @@
 import React from 'react'
-import LoginDstyles from '../css/LoginD.module.css'
+import LoginDStyles from '../css/LoginD.module.css'
 
 const LoginD = () => {
   return (
-    <div className={LoginDstyles.outer}>
-      <div className={LoginDstyles.blur}>
-        <div className={LoginDstyles.black}>
-          <div className={LoginDstyles.img}>
-            <img src='./Images/Digital_nomad-pana.png' className={LoginDstyles.imga}></img>
+    <div className={LoginDStyles.outer}>
+      <div className={LoginDStyles.blur}>
+        <div className={LoginDStyles.black}>
+          <div className={LoginDStyles.img}>
+            <img src='./Images/car-login.png' className={LoginDStyles.imga}></img>
           </div>
-          <form >
-            <div className={LoginDstyles.input}>
-              <div className={LoginDstyles.center}>
-
-                <h1 >Email ID</h1>
-                <input type='text' className={LoginDstyles.emailid} ></input>
-
+          <form>
+            <div className={LoginDStyles.input}>
+              <div className={LoginDStyles.center}>
+                <h1 className={LoginDStyles.label}>Email ID</h1>
+                <input type='text' className={LoginDStyles.emailid} ></input>
               </div>
-              <div className={LoginDstyles.center}>
-
-                <h1>Password</h1>
-                <input type='text' className={LoginDstyles.emailid} ></input>
-
+              <div className={LoginDStyles.center}>
+                <h1 className={LoginDStyles.label}>Password</h1>
+                <input type='text' className={LoginDStyles.emailid} ></input>
               </div>
             </div>
-            <div className={LoginDstyles.buttons}>
-              <button class={LoginDstyles.button}>Sign In</button>
+            <div className={LoginDStyles.buttons}>
+              <button className={LoginDStyles.button}>Sign In</button>
             </div>
 
-            <div className={LoginDstyles.centr}>
-              <p>Don't know your password ?<a href="#"><span>Forgot password</span></a></p>
+            <div className={LoginDStyles.centr}>
+              <p className={LoginDStyles.forgotpass}>Don’t know your password ? <a href='https://www.freepik.com/free-vector/travelers-concept-illustration_8793245.htm#query=tourist&position=23&from_view=keyword&track=sph'><span>Forgot password</span></a></p>
             </div>
 
-            <div className={LoginDstyles.buttons1}>
-              <button class={LoginDstyles.button1}>Register</button>
+            <div className={LoginDStyles.buttons1}>
+              <button className={LoginDStyles.button1}>Register</button>
             </div>
+
           </form>
         </div>
       </div>
-    </div >
+    </div>
   )
 }
 

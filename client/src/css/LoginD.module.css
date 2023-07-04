@@ -3,15 +3,15 @@
 .outer {
   height: 100%;
   width: 100%;
-  background-image: url("./Images/darkmode-back.jpg");
+  background-image: url("./Images/traveller-back.png");
   background-size: cover;
   background-position: center;
   background-repeat: none;
   font-family: 'poppins';
 }
-s
+
 .blur {
-  width: 100%;
+  width: 100vw;
   position: absolute;
   top: 10%;
   display: flex;
@@ -21,7 +21,7 @@ s
 .black {
   width: 32vw;
   padding-bottom: 50px;
-  background-color: rgba(0, 0, 0, 0.116);
+  background-color: rgba(0, 0, 0, 0.289);
   backdrop-filter: blur(5px);
   border-radius: 20px;
 }
@@ -34,8 +34,8 @@ s
 
 .imga {
   margin-top: 10px;
-  width: 230px;
-  height: 230px;
+  width: 200px;
+  height: 200px;
 
 }
 
@@ -47,7 +47,6 @@ h1 {
 }
 
 .emailid {
-
   outline: none;
   width: 23vw;
   height: 5vh;
@@ -64,6 +63,7 @@ h1 {
 }
 
 .center {
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
 }
@@ -74,7 +74,7 @@ h1 {
 }
 
 .button {
-  background-color: #112A18;
+  background-color: #193CBA;
   border: none;
   color: white;
   height: 5vh;
@@ -94,7 +94,7 @@ h1 {
 
 .button:hover {
   transform: translateY(2px);
-  transition: 1s;
+  transition: 0.5s;
   background-color: white;
   color: black;
 }
@@ -107,7 +107,7 @@ h1 {
 }
 
 .button1 {
-  background-color: #112A18;
+  background-color: #193CBA;
   border: none;
   color: white;
   height: 5vh;
@@ -132,6 +132,7 @@ h1 {
 }
 
 .buttons1 {
+
   display: flex;
   justify-content: center;
 }
@@ -144,13 +145,24 @@ p {
 a {
   color: blue;
 }
+
+.label {
+  width: 100%;
+  padding-left: 4.5vw;
+}
+
 @media only screen and (max-width: 913px) {
   .outer {
-    background: #0D150F;
+    background: #193CBA;
     width: 100vw;
     height: 100vh;
   }
-
+  .imga {
+ 
+    width: 250px;
+    height: 250px;
+  
+  }
   .blur {
     width: 100vw;
     height: 100vh;
@@ -179,7 +191,7 @@ a {
 
   .button1,
   .button {
-    background-color: #112A18;
+    background-color: #CBD6FC;
     color: white;
     box-shadow:
       0px 3.8px 5.3px rgba(0, 0, 0, 0.113),
