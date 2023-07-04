@@ -74,7 +74,7 @@ h1 {
 }
 
 .button {
-  background-color: #89FFAB;
+  background-color: #CBD6FC;
   border: none;
   color: black;
   height: 5vh;
@@ -94,8 +94,9 @@ h1 {
 
 .button:hover {
   transform: translateY(2px);
-  transition: 1s;
+  transition: 0.5s;
   background-color: white;
+  color: black;
 }
 
 .buttons {
@@ -106,7 +107,7 @@ h1 {
 }
 
 .button1 {
-  background-color: #89FFAB;
+  background-color: #CBD6FC;
   border: none;
   color: black;
   height: 5vh;
@@ -151,7 +152,7 @@ a {
 
 @media only screen and (max-width: 913px) {
   .outer {
-    background: #89FFAB;
+    background: #CBD6FC;
     width: 100vw;
     height: 100vh;
   }
