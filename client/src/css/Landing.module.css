@@ -110,11 +110,11 @@
  width: 70%;
  word-spacing: 5px;
  word-wrap: wrap;
- font-family: "poppins";
+ font-family:"poppins";
  height: 20%;
- color: #CBD6FC;
+ color: white;
  font-weight:300;
- text-shadow: 1px 1px 1px #193CBA;
+ text-shadow: 1px 1px 1px white;
 }
 .main_width{
   width: 100%;
