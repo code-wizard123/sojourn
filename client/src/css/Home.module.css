@@ -165,6 +165,7 @@ transition: 1s;
     background-size: cover;
 }
 
+
 .nameposition{
     margin-top: 20px;
 }
@@ -238,4 +239,44 @@ text-align: center;
     width: 100%;
     height: 200px;
     background-color: #00046A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.social{
+    width: 70%;
+
+}
+.socialcontent{
+    position: relative;
+    top: 70%;
+    width: 50%;
+    height: 30%;
+
+   
+}
+.socialwidth{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.issue{
+    width: 30%;
+  
+}
+.socialimg{
+    width: 35px;
+    height: 35px;
+}
+.socialtext{
+
+ text-align: center;
+}
+.issuetext{
+    position: relative;
+    top: 20%;
+
+}
+.padding{
+    padding-bottom: 10px;
 }

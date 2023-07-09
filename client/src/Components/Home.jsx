@@ -102,7 +102,32 @@ const Home = () => {
         </div>
 
 <div className={HomeStyles.footer}>
+<div className={HomeStyles.social}>
+<div className={HomeStyles.socialcontent}>
+<div className={HomeStyles.socialwidth}>
+ <div> <img src='./Images/insta.png' className={HomeStyles.socialimg}></img> </div>
 
+ <div>   <img src='./Images/twitter.png' className={HomeStyles.socialimg}></img></div>
+ 
+
+ <div>  <img src='./Images/facebook.png' className={HomeStyles.socialimg}></img></div>
+ 
+</div>
+</div>
+</div>
+<div className={HomeStyles.issue}>
+  <div className={HomeStyles.issuetext}>
+<div className={HomeStyles.padding}>
+  <p>hello</p>
+</div>
+<div  className={HomeStyles.padding}>
+  <p>hello</p>
+</div>
+<div  className={HomeStyles.padding}>
+  <p>hello</p>
+</div>
+</div>
+</div>
 </div>
       </div>
 
