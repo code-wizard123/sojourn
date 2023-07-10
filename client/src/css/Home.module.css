@@ -164,6 +164,16 @@ transition: 1s;
     background-image: url('./Images/itc maratha.jpg');
     background-size: cover;
 }
+.righta{
+    width: 50%;
+    background-image: url('./Images/Trident Nariman Point.jpg');
+    background-size: cover;
+}
+.rightb{
+    width: 50%;
+    background-image: url('./Images/Trident Bandra Kurla.jpg');
+    background-size: cover;
+}
 
 
 .nameposition{
@@ -224,6 +234,51 @@ transition: 1s;
   background-position: center;
 
   border-radius: 0px 0px 20px;
+}.covera{
+    width: 200px;
+    height: 150px;
+  background-color: red;
+  background-image: url('./Images/goa.jpg');
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 0px 0px 20px;
+}.coverb{
+    width: 200px;
+    height: 150px;
+  background-color: red;
+  background-image: url('./Images/kerela.jpg');
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 0px 0px 20px;
+}.coverc{
+    width: 200px;
+    height: 150px;
+  background-color: red;
+  background-image: url('./Images/maharshtra.jpg');
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 0px 0px 20px;
+}.coverd{
+    width: 200px;
+    height: 150px;
+  background-color: red;
+  background-image: url('./Images/rajasthan.jpg');
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 0px 0px 20px;
+}.covere{
+    width: 200px;
+    height: 150px;
+  background-color: red;
+  background-image: url('./Images/punjab.jpg');
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 0px 0px 20px;
 }
 
 .covertext{
@@ -231,7 +286,7 @@ transition: 1s;
 margin-top: 70px;
 text-align: center;
   
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: bold;
 }
@@ -280,3 +335,90 @@ text-align: center;
 .padding{
     padding-bottom: 10px;
 }
+@media only screen and (max-width: 913px) {
+    .out {
+
+        width: 100%;
+        height: 100%;
+        background-image: url('./Images/booing2.jpg');
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        font-family: 'Michroma';
+       
+    }
+    .first{
+        width: 100%;
+       height: 100%;
+
+    }
+    .logo{
+        width: 100%;
+        position:absolute;
+        top: 27%;
+       
+       display: flex;
+       justify-content: center;
+    }
+    .logotext{
+        font-size: 50px;
+    }
+    .logosize{
+       display: none;
+    }
+
+    .text{
+
+    width: 90%;
+    position:absolute;
+    top : 33%;
+    left: 5%;
+ text-align: center;
+    font-family: 'Michroma';
+}
+.slogantext{
+    margin-top: -40px;
+    width: 100%;
+ font-size: 25px;
+}
+.button57 {
+    letter-spacing: 1px;
+    position: absolute;
+    overflow: hidden;
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 3px 3px 1px 3px;
+    width: 100%;
+    height: 20%;
+    text-decoration: none;
+    cursor: pointer;
+    background: #00046A;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: "poppins";
+    font-weight:bold;
+    top: 100%;
+    left: 0%;
+  
+  }
+  .top{
+    font-size: 30px;
+  }
+  .hotelcards{
+    display: none;
+  }
+.statetext{
+    font-size: 30px;
+}
+.statecards{
+    display: none;
+}
+.socialimg{
+    width: 23px;
+    height: 23px;
+}
+  }

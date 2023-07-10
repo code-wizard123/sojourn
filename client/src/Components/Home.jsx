@@ -49,7 +49,7 @@ const Home = () => {
               </div>
 
             </div>
-            <div className={HomeStyles.right}>
+            <div className={HomeStyles.righta}>
               {/* for image */}
             </div>
           </div>
@@ -64,7 +64,7 @@ const Home = () => {
               </div>
 
             </div>
-            <div className={HomeStyles.right}>
+            <div className={HomeStyles.rightb}>
               {/* for image */}
             </div>
           </div>
@@ -83,19 +83,19 @@ const Home = () => {
 
             </div>
 
-            <div className={HomeStyles.cover}>
-              <p className={HomeStyles.covertext}>Punjab</p>
+            <div className={HomeStyles.covera}>
+              <p className={HomeStyles.covertext}>Goa</p>
             </div>
-            <div className={HomeStyles.cover}>
-              <p className={HomeStyles.covertext}>Punjab</p>
+            <div className={HomeStyles.coverb}>
+              <p className={HomeStyles.covertext}>Kerela</p>
             </div>
-            <div className={HomeStyles.cover}>
-              <p className={HomeStyles.covertext}>Punjab</p>
+            <div className={HomeStyles.coverc}>
+              <p className={HomeStyles.covertext}>Maharashtra</p>
             </div>
-            <div className={HomeStyles.cover}>
-              <p className={HomeStyles.covertext}>Punjab</p>
+            <div className={HomeStyles.coverd}>
+              <p className={HomeStyles.covertext}>Rajasthan</p>
             </div>
-            <div className={HomeStyles.cover}>
+            <div className={HomeStyles.covere}>
               <p className={HomeStyles.covertext}>Punjab</p>
             </div>
           </div>
