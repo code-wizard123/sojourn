@@ -4,7 +4,9 @@ import Login from './Components/Login'
 import Landing from './Components/Landing'
 import LoginD from './Components/LoginD'
 import Home from './Components/Home'
+import Booking from './Components/Booking'
 import './App.css'
+
 
 
 const App = () => {
@@ -14,7 +16,8 @@ const App = () => {
         <Routes>
           <Route element={<Landing />} path='/' />
           <Route element={<Login />} path='/login' />
-          <Route element={<Home />} path='/Home' />
+          <Route element={<Home />} path='/home' />
+          <Route element={<Booking />} path='/booking' />
         </Routes>
       </Router>
     </div>

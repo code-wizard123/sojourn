@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+.darkdiv{
+   background-image: url("./Images/booing3.jpg");
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   font-family: 'Michroma';
+}
+.search{
+    width: 100%;
+    position: relative;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.bar{
+    width: 25%;
+    height: 35px;
+    border-radius:50px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-family: 'poppins';
+   color: black;
+   box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.388);
+}
+.book{
+    width: 100%;
+    
+    position:relative;
+    top: 20%;
+    display: flex;
+    flex-direction: row;
+ 
+}
+.left{
+    width: 70%;
+    height: 100%;
+
+  
+}
+.right{
+    width: 30%;
+    height: 100%;
+
+}
+
+
+.select{
+
+    position: relative;
+    width: 40%;
+    height: 50px;
+    left: 5%;
+    outline: none;
+    border-radius: 10px;
+    font-family: "poppins";
+    font-size: 15px;
+    font-weight: bold;
+ 
+}
+
+.option{
+    outline: none;
+    text-align: center;
+
+}
+.red{
+    color: red;
+    text-align: center;
+}
+.blue{
+    color: blue;
+    text-align: center;
+}
+.green{
+    color: green;
+    text-align: center;
+}
+.checkin{
+    text-align: center;
+    position: relative;
+    width: 18%;
+    height: 50px;
+    left: 5%;
+    outline: none;
+    border-radius: 10px;
+    font-family: "poppins";
+    font-size: 10px;
+    font-weight: bold;
+    border: none;  
+}
+
+.checkout{
+    text-align: center;
+    position: relative;
+    width: 18%;
+    height: 50px;
+    left: 9%;
+    outline: none;
+    border-radius: 10px;
+    font-family: "poppins";
+    font-size: 10px;
+    font-weight: bold; 
+    border: none; 
+    
+}
+.checkout::before{
+  font-size: 12px;
+  padding: 5px;
+  margin-top: -1px;
+    content: "Check Out";
+  
+}
+
+
+.checkin::before{
+    font-size: 12px;
+  padding: 5px;
+  margin-top: -1px;
+    content: "Check In";
+}
+.button57 {
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 3px 3px 1px 3px;
+    width: 40%;
+    height: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #00046A;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-family: "poppins";
+    font-weight:bold;
+    top: 100%;
+    left: 5%;
+    border-radius: 10px;
+  
+  }
+  
+  .button57 span:first-child {
+    position: relative;
+    transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 10;
+  }
+  
+  .button57 span:last-child {
+    color: black;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 100;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateY(225%) translateX(-50%);
+    height: 14px;
+    line-height: 13px;
+  }
+  
+  .button57:after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transform-origin: bottom center;
+    transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    transform: skewY(9.3deg) scaleY(0);
+    z-index: 50;
+  }
+  
+  .button57:hover:after {
+    transform-origin: bottom center;
+    transform: skewY(9.3deg) scaleY(2);
+  }
+  
+  .button57:hover span:last-child {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 1;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+  }
+  .info{
+    position: absolute;
+    width: 100%;
+
+    top: 105%;
+    color: black;
+}
+.top{
+    margin-top: 50px;
+    font-size: 45px;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-family: 'Michroma';
+    font-weight: bold;
+}
+.hotel{
+    width: 100%;
+margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10%;
+
+}
+.hotelcards{
+width: 450px;
+height: 150px;
+background-color: #193CBA;
+display: flex;
+box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.358);
+transition: 1s;
+}
+.hotelcards:hover{
+    transition: 1s;
+    transform: scale(1.025);
+}
+.left{
+    width: 70%;
+}
+.rightc{
+    width: 50%;
+    background-image: url('./Images/itc maratha.jpg');
+    background-size: cover;
+}
+.righta{
+    width: 50%;
+    background-image: url('./Images/Trident Nariman Point.jpg');
+    background-size: cover;
+}
+.rightb{
+    width: 50%;
+    background-image: url('./Images/Trident Bandra Kurla.jpg');
+    background-size: cover;
+}
+
+
+.nameposition{
+    margin-top: 20px;
+}
+.name{
+    width: 70%;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    color: black;
+    border-radius: 0px 0px 15px;
+    background-color: white;
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: bold;
+}
+.address{
+    font-family: 'Poppins';
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 10px;
+    width: 90%;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #00046A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.social{
+    width: 70%;
+
+}
+.socialcontent{
+    position: relative;
+    top: 70%;
+    width: 50%;
+    height: 30%;
+
+   
+}
+.socialwidth{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.issue{
+    width: 30%;
+  
+}
+.socialimg{
+    width: 35px;
+    height: 35px;
+}
+.socialtext{
+
+ text-align: center;
+}
+.issuetext{
+    position: relative;
+    top: 20%;
+
+}
+.padding{
+    padding-bottom: 10px;
+}

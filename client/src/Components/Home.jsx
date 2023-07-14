@@ -118,13 +118,13 @@ const Home = () => {
 <div className={HomeStyles.issue}>
   <div className={HomeStyles.issuetext}>
 <div className={HomeStyles.padding}>
-  <p>hello</p>
+  <p>About</p>
 </div>
 <div  className={HomeStyles.padding}>
-  <p>hello</p>
+  <p>Contact</p>
 </div>
 <div  className={HomeStyles.padding}>
-  <p>hello</p>
+  <p>Help</p>
 </div>
 </div>
 </div>
