@@ -5,6 +5,7 @@ import Landing from './Components/Landing'
 import LoginD from './Components/LoginD'
 import Home from './Components/Home'
 import Booking from './Components/Booking'
+import Hotel from './Components/Hotel'
 import './App.css'
 
 
@@ -18,6 +19,7 @@ const App = () => {
           <Route element={<Login />} path='/login' />
           <Route element={<Home />} path='/home' />
           <Route element={<Booking />} path='/booking' />
+          <Route element={<Hotel />} path='/hotel' />
         </Routes>
       </Router>
     </div>

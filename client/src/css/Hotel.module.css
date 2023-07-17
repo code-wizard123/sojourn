@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+.out{
+ width: 100%;
+ height: 100%;
+    
+}
+.search{
+    width: 100%;
+    position: relative;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.bar{
+    width: 25%;
+    height: 35px;
+    border-radius:50px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-family: 'poppins';
+   color: black;
+   box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.388);
+}
+
+.infoa{
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    color: black;
+}
+
+.hotela{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 20%;
+
+}
+.hotelcardsa{
+width: 700px;
+height: 260px;
+background-color: #193CBA;
+display: flex;
+box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.24);
+transition: 1s;
+}
+.hotelcardsa:hover{
+    transition: 1s;
+    transform: scale(1.02);
+}
+.lefta{
+    width: 70%;
+}
+.righta{
+    width: 50%;
+    background-image: url('./Images/itc maratha.jpg');
+    background-size: cover;
+}
+.namepositiona{
+    margin-top: 20px;
+}
+.namea{
+    width: 70%;
+    height: 40px;
+    padding-top: 5px;
+    text-align: center;
+    color: black;
+    border-radius: 0px 0px 15px;
+    background-color: white;
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: bold;
+}
+.addressa{
+    font-family: 'Poppins';
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    width: 85%;
+}
+.ratinga{
+    width: 100%;
+ 
+}
+.rating_positiona{
+    float: right;
+    margin-right: 30px;  
+    font-family: "poppins";
+    font-weight: bold;
+}
+.review{
+    margin-top: -300px;
+    width: 100%;
+
+  text-align: center;
+}
+.reviewh1{
+    color: black;
+  font-family: "poppins";
+  font-size: 60px;
+    font-weight: bold;
+}
+.reviewcards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.sectiona{
+    width: 200px;
+    height: 190px;
+   box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.388);
+   background-color: #EFE1D9;
+}
+.sectionb{
+    width: 200px;
+       height: 190px;
+   box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.388);
+   background-color: #EFE1D9;
+}
+.sectionc{
+    width: 200px;
+       height: 190px;
+   box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.388);
+   background-color: #EFE1D9;
+}
+.sectiond{
+    width: 200px;
+       height: 190px;
+   box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.388);
+   background-color: #EFE1D9;
+}
+.user_review{
+width: 100%;
+text-align: center;
+}
+.userh1{
+    font-size: 20px;
+    font-family: "poppins";
+    font-weight: bold;
+    color: black;
+}
+.userinput{
+    margin-top: 30px;
+    text-align: center;
+}
+.userinputh1{
+
+    width: 90%;
+    position: relative;
+    left: 4%;
+    font-size: 9px;
+    font-family: "poppins";
+    font-weight: bold;
+    color: black;
+}
+
+.infob{
+    position: relative;
+    width: 100%;
+
+    top: 10%;
+    color: black;
+}
+.topb{
+    margin-top: 50px;
+    font-size: 64px;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-family: 'Michroma';
+    font-weight: bold;
+}
+.hotelb{
+    width: 100%;
+margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+
+
+}
+.hotelcardsb{
+width: 450px;
+height: 150px;
+background-color: #193CBA;
+display: flex;
+box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.358);
+transition: 1s;
+}
+.hotelcardsb:hover{
+    transition: 1s;
+    transform: scale(1.025);
+}
+.leftb{
+    width: 70%;
+}
+.rightc{
+    width: 50%;
+    background-image: url('./Images/itc maratha.jpg');
+    background-size: cover;
+}
+.righta{
+    width: 50%;
+    background-image: url('./Images/Trident Nariman Point.jpg');
+    background-size: cover;
+}
+.rightb{
+    width: 50%;
+    background-image: url('./Images/Trident Bandra Kurla.jpg');
+    background-size: cover;
+}
+
+.namepositionb{
+    margin-top: 20px;
+}
+.nameb{
+    width: 70%;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    color: black;
+    border-radius: 0px 0px 15px;
+    background-color: white;
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: bold;
+}
+.addressb{
+    font-family: 'Poppins';
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 10px;
+    width: 90%;
+}
+
+.footer{
+    position: absolute;
+    top: 130%;
+    width: 100%;
+    height: 200px;
+    background-color: #00046A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.social{
+    width: 70%;
+
+}
+.socialcontent{
+    position: relative;
+    top: 70%;
+    width: 50%;
+    height: 30%;
+
+   
+}
+.socialwidth{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.issue{
+    width: 30%;
+  
+}
+.socialimg{
+    width: 35px;
+    height: 35px;
+}
+.socialtext{
+
+ text-align: center;
+}
+.issuetext{
+    position: relative;
+    top: 20%;
+
+}
+.padding{
+    padding-bottom: 10px;
+}
