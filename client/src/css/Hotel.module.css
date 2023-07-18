@@ -3,7 +3,7 @@
 .out{
  width: 100%;
  height: 100%;
-    
+
 }
 .search{
     width: 100%;
@@ -289,3 +289,235 @@ transition: 1s;
 .padding{
     padding-bottom: 10px;
 }
+@media only screen and (max-width: 913px) {
+    .bar{
+        width: 70%;
+        height: 35px;
+    
+    }
+    .hotelcardsa{
+        width: 95%;
+        height: 230px;
+        background-color: #193CBA;
+        display: flex;
+        box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.24);
+        transition: 1s;
+        }
+        .lefta{
+            width: 60%;
+        }
+        .righta{
+            width: 50%;
+            background-image: url('./Images/itc maratha.jpg');
+            background-size: cover;
+        }
+        
+.namepositiona{
+    margin-top: 20px;
+}
+.namea{
+    width: 70%;
+    height: 40px;
+    padding-top: 8px;
+    text-align: center;
+    color: black;
+    border-radius: 0px 0px 15px;
+    background-color: white;
+    font-size: 15px;
+    font-family: "poppins";
+    font-weight: bold;
+}
+.addressa{
+    font-family: 'Poppins';
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 13px;
+    width: 85%;
+}
+.ratinga{
+    width: 100%;
+ 
+}
+.rating_positiona{
+    float: right;
+    margin-right: 13px;  
+    font-family: "poppins";
+    font-weight: bold;
+}
+.review{
+    margin-top: -300px;
+    width: 100%;
+
+  text-align: center;
+}
+.reviewh1{
+    color: black;
+  font-family: "poppins";
+  font-size: 30px;
+    font-weight: bold;
+}
+.reviewcards{
+    width: 100%;
+    display: none;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.sectiona{
+    width: 200px;
+    height: 190px;
+   box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.388);
+   background-color: #EFE1D9;
+}
+.sectionb{
+    width: 200px;
+       height: 190px;
+   box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.388);
+   background-color: #EFE1D9;
+}
+.sectionc{
+    width: 200px;
+       height: 190px;
+   box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.388);
+   background-color: #EFE1D9;
+}
+.sectiond{
+    width: 200px;
+       height: 190px;
+   box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.388);
+   background-color: #EFE1D9;
+}
+
+.infob{
+    position: relative;
+    width: 100%;
+
+    top: 10%;
+    color: black;
+}
+.topb{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-family: 'Michroma';
+    font-weight: bold;
+}
+.hotelb{
+    width: 100%;
+margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+
+
+}
+.hotelcardsb{
+width: 450px;
+height: 150px;
+background-color: #193CBA;
+display: flex;
+box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.358);
+transition: 1s;
+}
+.hotelcardsb:hover{
+    transition: 1s;
+    transform: scale(1.025);
+}
+.leftb{
+    width: 70%;
+}
+.rightc{
+    width: 50%;
+    background-image: url('./Images/itc maratha.jpg');
+    background-size: cover;
+}
+.righta{
+    width: 50%;
+    background-image: url('./Images/Trident Nariman Point.jpg');
+    background-size: cover;
+}
+.rightb{
+    width: 50%;
+    background-image: url('./Images/Trident Bandra Kurla.jpg');
+    background-size: cover;
+}
+
+.namepositionb{
+    margin-top: 20px;
+}
+.nameb{
+    width: 70%;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    color: black;
+    border-radius: 0px 0px 15px;
+    background-color: white;
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: bold;
+}
+.addressb{
+    font-family: 'Poppins';
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 10px;
+    width: 90%;
+}
+
+.statetext{
+    font-size: 30px;
+}
+.statecards{
+    display: none;
+}
+.socialimg{
+    width: 23px;
+    height: 23px;
+}
+.hotelb{
+    width: 100%;
+margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+
+
+}
+.hotelcardsb{
+width: 450px;
+height: 150px;
+background-color: #193CBA;
+display: none;
+box-shadow: 0 0 5px 5px  rgba(0, 0, 0, 0.358);
+transition: 1s;
+}
+.hotelcardsb:hover{
+    transition: 1s;
+    transform: scale(1.025);
+}
+.leftb{
+    width: 70%;
+}
+.rightc{
+    width: 50%;
+    background-image: url('./Images/itc maratha.jpg');
+    background-size: cover;
+}
+.righta{
+    width: 50%;
+    background-image: url('./Images/Trident Nariman Point.jpg');
+    background-size: cover;
+}
+.rightb{
+    width: 50%;
+    background-image: url('./Images/Trident Bandra Kurla.jpg');
+    background-size: cover;
+}
+
+  }
